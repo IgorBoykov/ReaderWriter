@@ -1,0 +1,380 @@
+2021-03-16 10:37:18,669 [SchedulerPseudoTriggersService - 152 - 1615883838441] WARN   com.mitateknik.scheduler.SchedulerFacade   Skip trigger RECOVERING_JOBS.recover_UAPC1403_1615883838285
+2021-03-16 10:37:18,717 [MitaScheduler_Worker-1] INFO   com.mitateknik.scheduler.ActionCommandJob   Job JobDetail 'Controller Data.1037':  jobClass: 'com.mitateknik.scheduler.ActionCommandJob concurrentExectionDisallowed: true persistJobDataAfterExecution: false isDurable: true requestsRecovers: true started with trigger Trigger 'RECOVERING_JOBS.recover_UAPC1403_1615883838285':  triggerClass: 'org.quartz.impl.triggers.SimpleTriggerImpl calendar: 'null' misfireInstruction: -1 nextFireTime: null.
+2021-03-16 10:37:18,718 [MitaScheduler_Worker-1] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:37:18,836 [MitaScheduler_Worker-1] INFO   com.mitateknik.scheduler.SchedulerFacade   Update task activations.
+2021-03-16 10:37:18,862 [MitaScheduler_Worker-2] INFO   com.mitateknik.scheduler.ActionServiceJob   Job JobDetail 'Services.1232':  jobClass: 'com.mitateknik.scheduler.ActionServiceJob concurrentExectionDisallowed: true persistJobDataAfterExecution: false isDurable: true requestsRecovers: true started with trigger Trigger 'Rescheduled.6209':  triggerClass: 'org.quartz.impl.triggers.SimpleTriggerImpl calendar: 'null' misfireInstruction: 0 nextFireTime: null.
+2021-03-16 10:37:18,862 [MitaScheduler_Worker-2] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:37:18,946 [MitaScheduler_Worker-2] INFO   com.mitateknik.scheduler.SchedulerFacade   Update task activations.
+2021-03-16 10:37:19,091 [MitaScheduler_Worker-1] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Recovering task fired by trigger <>.
+2021-03-16 10:37:19,115 [MitaScheduler_Worker-1] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Attempt 1.
+2021-03-16 10:37:19,148 [MitaScheduler_Worker-1] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get FTP sites configuration for task.
+2021-03-16 10:37:19,179 [MitaScheduler_Worker-1] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's command actions.
+2021-03-16 10:37:19,223 [MitaScheduler_Worker-2] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting task execution.
+2021-03-16 10:37:19,467 [MitaScheduler_Worker-2] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Attempt 4.
+2021-03-16 10:37:19,467 [MitaScheduler_Worker-2] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's service actions.
+2021-03-16 10:37:19,497 [MitaScheduler_Worker-2] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Select the failed service data related to the rescheduled trigger
+2021-03-16 10:37:19,697 [MitaScheduler_Worker-1] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Number of data requests: 67.
+2021-03-16 10:37:19,832 [MitaScheduler_Worker-2] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Number of data requests: 1.
+2021-03-16 10:37:19,859 [CommandRequestProcessingThread - 164 - 1615883839753] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:37:20,087 [ServiceRequestProcessingThread - 168 - 1615883839845] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Sending report in e-mail...
+2021-03-16 10:37:20,090 [CommandRequestProcessingThread - 166 - 1615883839756] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:37:20,739 [CommandRequestProcessingThread - 165 - 1615883839754] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:37:20,739 [ServiceRequestProcessingThread - 168 - 1615883839845] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no files to send.
+2021-03-16 10:37:21,485 [MitaScheduler_Worker-2] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Stopping task.
+2021-03-16 10:37:21,654 [MitaScheduler_Worker-2] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is stopped.
+2021-03-16 10:37:21,654 [MitaScheduler_Worker-2] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:37:21,889 [MitaScheduler_Worker-2] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:37:21,902 [SchedulerPseudoTriggersService - 152 - 1615883838441] INFO   com.mitateknik.scheduler.SchedulerPseudoTriggersService   Handle a 'server started' event.
+2021-03-16 10:37:22,024 [MitaScheduler_Worker-2] INFO   com.mitateknik.scheduler.SchedulerFacade   Create trigger1.
+2021-03-16 10:37:24,337 [MitaScheduler_Worker-2] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is re-scheduled to 16-03-2021 08:42:21 UTC (GMT+0000).
+2021-03-16 10:37:27,148 [MitaScheduler_Worker-2] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:37:27,175 [SchedulerPseudoTriggersService - 152 - 1615883838441] INFO   com.mitateknik.scheduler.SchedulerPseudoTriggersService   Handle a 'task executed' event.
+2021-03-16 10:37:28,333 [MitaScheduler_Worker-2] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished task execution.
+2021-03-16 10:37:29,296 [Thread-110] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:37:39,317 [CommandRequestProcessingThread - 165 - 1615883839754] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:37:39,331 [CommandRequestProcessingThread - 166 - 1615883839756] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:37:39,354 [CommandRequestProcessingThread - 164 - 1615883839753] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2016.
+2021-03-16 10:37:39,403 [CommandRequestProcessingThread - 164 - 1615883839753] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:37:39,461 [CommandRequestProcessingThread - 197 - 1615883859427] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:37:39,576 [CommandRequestProcessingThread - 199 - 1615883859528] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:37:39,700 [CommandRequestProcessingThread - 201 - 1615883859630] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:38:27,086 [CommandRequestProcessingThread - 201 - 1615883859630] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2022.
+2021-03-16 10:38:27,379 [CommandRequestProcessingThread - 201 - 1615883859630] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:38:27,512 [CommandRequestProcessingThread - 492 - 1615883907484] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:38:33,181 [CommandRequestProcessingThread - 197 - 1615883859427] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:38:33,451 [CommandRequestProcessingThread - 494 - 1615883913327] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:38:40,269 [CommandRequestProcessingThread - 494 - 1615883913327] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:38:40,463 [CommandRequestProcessingThread - 496 - 1615883920374] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:38:45,839 [CommandRequestProcessingThread - 496 - 1615883920374] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:38:45,995 [CommandRequestProcessingThread - 498 - 1615883925946] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:38:50,819 [CommandRequestProcessingThread - 498 - 1615883925946] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:38:50,958 [CommandRequestProcessingThread - 500 - 1615883930925] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:38:55,394 [CommandRequestProcessingThread - 500 - 1615883930925] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2165.
+2021-03-16 10:38:55,468 [CommandRequestProcessingThread - 500 - 1615883930925] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:38:55,513 [MitaScheduler_Worker-3] INFO   com.mitateknik.scheduler.ActionCommandJob   Job JobDetail 'Controller Data.1127':  jobClass: 'com.mitateknik.scheduler.ActionCommandJob concurrentExectionDisallowed: true persistJobDataAfterExecution: false isDurable: true requestsRecovers: true started with trigger Trigger 'Rescheduled.6211':  triggerClass: 'org.quartz.impl.triggers.SimpleTriggerImpl calendar: 'null' misfireInstruction: 0 nextFireTime: null.
+2021-03-16 10:38:55,513 [MitaScheduler_Worker-3] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:38:55,541 [MitaScheduler_Worker-3] INFO   com.mitateknik.scheduler.SchedulerFacade   Update task activations.
+2021-03-16 10:38:55,606 [CommandRequestProcessingThread - 502 - 1615883935590] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:38:55,791 [MitaScheduler_Worker-3] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting task execution.
+2021-03-16 10:38:55,993 [MitaScheduler_Worker-3] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Attempt 3.
+2021-03-16 10:38:56,060 [MitaScheduler_Worker-3] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get FTP sites configuration for task.
+2021-03-16 10:38:56,067 [MitaScheduler_Worker-3] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's command actions.
+2021-03-16 10:38:56,071 [MitaScheduler_Worker-3] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Select the failed command data related to the rescheduled trigger
+2021-03-16 10:38:56,134 [MitaScheduler_Worker-3] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Number of data requests: 1.
+2021-03-16 10:38:56,221 [CommandRequestProcessingThread - 505 - 1615883936136] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:39:00,099 [CommandRequestProcessingThread - 502 - 1615883935590] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2166.
+2021-03-16 10:39:00,131 [CommandRequestProcessingThread - 502 - 1615883935590] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:39:00,254 [CommandRequestProcessingThread - 508 - 1615883940233] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:39:06,153 [CommandRequestProcessingThread - 508 - 1615883940233] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:39:06,354 [CommandRequestProcessingThread - 510 - 1615883946257] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:39:18,282 [CommandRequestProcessingThread - 505 - 1615883936136] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Controller communication error: Connection timed out: connect
+2021-03-16 10:39:20,815 [CommandRequestProcessingThread - 510 - 1615883946257] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:39:20,954 [CommandRequestProcessingThread - 512 - 1615883960932] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:39:34,670 [CommandRequestProcessingThread - 512 - 1615883960932] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:39:34,806 [CommandRequestProcessingThread - 514 - 1615883974790] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:39:41,885 [CommandRequestProcessingThread - 505 - 1615883936136] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Controller communication error: Connection timed out: connect
+2021-03-16 10:39:49,393 [CommandRequestProcessingThread - 514 - 1615883974790] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:39:49,507 [CommandRequestProcessingThread - 521 - 1615883989496] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:39:52,384 [CommandRequestProcessingThread - 521 - 1615883989496] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:39:52,502 [CommandRequestProcessingThread - 523 - 1615883992488] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:40:00,065 [CommandRequestProcessingThread - 523 - 1615883992488] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:40:00,220 [CommandRequestProcessingThread - 525 - 1615884000186] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:40:05,050 [CommandRequestProcessingThread - 525 - 1615884000186] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:40:05,223 [CommandRequestProcessingThread - 527 - 1615884005155] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:40:06,074 [CommandRequestProcessingThread - 505 - 1615883936136] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Connection timed out: connect
+2021-03-16 10:40:07,014 [MitaScheduler_Worker-3] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Logs summary: downloaded <0>
+2021-03-16 10:40:07,289 [MitaScheduler_Worker-3] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Stopping task.
+2021-03-16 10:40:07,365 [MitaScheduler_Worker-3] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is stopped.
+2021-03-16 10:40:07,365 [MitaScheduler_Worker-3] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:40:08,168 [MitaScheduler_Worker-3] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:40:08,239 [MitaScheduler_Worker-3] INFO   com.mitateknik.scheduler.SchedulerFacade   Create trigger1.
+2021-03-16 10:40:11,231 [MitaScheduler_Worker-3] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is re-scheduled to 16-03-2021 08:45:08 UTC (GMT+0000).
+2021-03-16 10:40:11,306 [MitaScheduler_Worker-3] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:40:11,341 [SchedulerPseudoTriggersService - 152 - 1615883838441] INFO   com.mitateknik.scheduler.SchedulerPseudoTriggersService   Handle a 'task executed' event.
+2021-03-16 10:40:11,551 [MitaScheduler_Worker-3] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished task execution.
+2021-03-16 10:40:11,862 [Thread-113] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:40:16,570 [CommandRequestProcessingThread - 527 - 1615884005155] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:40:16,740 [CommandRequestProcessingThread - 533 - 1615884016673] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:40:26,719 [CommandRequestProcessingThread - 533 - 1615884016673] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:40:27,205 [CommandRequestProcessingThread - 535 - 1615884026830] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:40:32,423 [CommandRequestProcessingThread - 535 - 1615884026830] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2177.
+2021-03-16 10:40:32,492 [CommandRequestProcessingThread - 535 - 1615884026830] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:40:32,615 [CommandRequestProcessingThread - 537 - 1615884032597] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:23,156 [MitaScheduler_Worker-4] INFO   com.mitateknik.scheduler.ActionServiceJob   Job JobDetail 'Services.1232':  jobClass: 'com.mitateknik.scheduler.ActionServiceJob concurrentExectionDisallowed: true persistJobDataAfterExecution: false isDurable: true requestsRecovers: true started with trigger Trigger 'Rescheduled.6212':  triggerClass: 'org.quartz.impl.triggers.SimpleTriggerImpl calendar: 'null' misfireInstruction: 0 nextFireTime: null.
+2021-03-16 10:42:23,161 [MitaScheduler_Worker-4] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:42:23,435 [MitaScheduler_Worker-4] INFO   com.mitateknik.scheduler.SchedulerFacade   Update task activations.
+2021-03-16 10:42:27,180 [MitaScheduler_Worker-4] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting task execution.
+2021-03-16 10:42:27,387 [MitaScheduler_Worker-4] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Attempt 5.
+2021-03-16 10:42:27,567 [MitaScheduler_Worker-4] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's service actions.
+2021-03-16 10:42:27,751 [MitaScheduler_Worker-4] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Select the failed service data related to the rescheduled trigger
+2021-03-16 10:42:28,704 [MitaScheduler_Worker-4] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Number of data requests: 1.
+2021-03-16 10:42:28,872 [ServiceRequestProcessingThread - 541 - 1615884148758] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Sending report in e-mail...
+2021-03-16 10:42:29,183 [ServiceRequestProcessingThread - 541 - 1615884148758] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no files to send.
+2021-03-16 10:42:29,520 [MitaScheduler_Worker-4] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Stopping task.
+2021-03-16 10:42:29,673 [MitaScheduler_Worker-4] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is stopped.
+2021-03-16 10:42:29,679 [MitaScheduler_Worker-4] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:42:30,198 [MitaScheduler_Worker-4] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:42:30,240 [MitaScheduler_Worker-4] INFO   com.mitateknik.scheduler.SchedulerFacade   Create trigger1.
+2021-03-16 10:42:33,762 [MitaScheduler_Worker-5] INFO   com.mitateknik.scheduler.ActionCommandJob   Job JobDetail 'Controller Data.1000':  jobClass: 'com.mitateknik.scheduler.ActionCommandJob concurrentExectionDisallowed: true persistJobDataAfterExecution: false isDurable: true requestsRecovers: true started with trigger Trigger 'Rescheduled.6205':  triggerClass: 'org.quartz.impl.triggers.SimpleTriggerImpl calendar: 'null' misfireInstruction: 0 nextFireTime: null.
+2021-03-16 10:42:33,762 [MitaScheduler_Worker-5] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:42:36,699 [MitaScheduler_Worker-5] INFO   com.mitateknik.scheduler.SchedulerFacade   Update task activations.
+2021-03-16 10:42:38,038 [MitaScheduler_Worker-4] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is re-scheduled to 16-03-2021 08:47:30 UTC (GMT+0000).
+2021-03-16 10:42:41,679 [MitaScheduler_Worker-4] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:42:41,741 [SchedulerPseudoTriggersService - 152 - 1615883838441] INFO   com.mitateknik.scheduler.SchedulerPseudoTriggersService   Handle a 'task executed' event.
+2021-03-16 10:42:42,598 [MitaScheduler_Worker-4] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished task execution.
+2021-03-16 10:42:44,354 [MitaScheduler_Worker-5] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting task execution.
+2021-03-16 10:42:44,513 [MitaScheduler_Worker-5] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Attempt 2.
+2021-03-16 10:42:44,555 [MitaScheduler_Worker-5] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get FTP sites configuration for task.
+2021-03-16 10:42:44,642 [MitaScheduler_Worker-5] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's command actions.
+2021-03-16 10:42:44,784 [MitaScheduler_Worker-5] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Select the failed command data related to the rescheduled trigger
+2021-03-16 10:42:45,667 [CommandRequestProcessingThread - 199 - 1615883859528] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:42:46,252 [CommandRequestProcessingThread - 542 - 1615884165790] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:46,394 [Thread-114] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:42:46,819 [MitaScheduler_Worker-5] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Number of data requests: 67.
+2021-03-16 10:42:47,096 [CommandRequestProcessingThread - 545 - 1615884166859] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:47,295 [CommandRequestProcessingThread - 546 - 1615884166864] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:47,388 [CommandRequestProcessingThread - 547 - 1615884166864] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:49,273 [CommandRequestProcessingThread - 546 - 1615884166864] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:49,309 [CommandRequestProcessingThread - 547 - 1615884166864] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:49,310 [CommandRequestProcessingThread - 545 - 1615884166859] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2180.
+2021-03-16 10:42:49,328 [CommandRequestProcessingThread - 545 - 1615884166859] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:49,398 [CommandRequestProcessingThread - 556 - 1615884169382] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:49,465 [CommandRequestProcessingThread - 556 - 1615884169382] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2183.
+2021-03-16 10:42:49,479 [CommandRequestProcessingThread - 556 - 1615884169382] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:49,505 [CommandRequestProcessingThread - 558 - 1615884169487] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:49,550 [CommandRequestProcessingThread - 558 - 1615884169487] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2184.
+2021-03-16 10:42:49,574 [CommandRequestProcessingThread - 558 - 1615884169487] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:49,633 [CommandRequestProcessingThread - 560 - 1615884169589] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:49,730 [CommandRequestProcessingThread - 562 - 1615884169694] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:49,831 [CommandRequestProcessingThread - 564 - 1615884169796] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:50,366 [CommandRequestProcessingThread - 564 - 1615884169796] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:50,366 [CommandRequestProcessingThread - 560 - 1615884169589] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2185.
+2021-03-16 10:42:50,386 [CommandRequestProcessingThread - 560 - 1615884169589] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:50,421 [CommandRequestProcessingThread - 562 - 1615884169694] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2186.
+2021-03-16 10:42:50,448 [CommandRequestProcessingThread - 562 - 1615884169694] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:50,509 [CommandRequestProcessingThread - 566 - 1615884170495] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:50,736 [CommandRequestProcessingThread - 568 - 1615884170598] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:50,792 [CommandRequestProcessingThread - 569 - 1615884170702] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:50,903 [CommandRequestProcessingThread - 566 - 1615884170495] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:51,272 [CommandRequestProcessingThread - 572 - 1615884171049] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:51,471 [CommandRequestProcessingThread - 569 - 1615884170702] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2190.
+2021-03-16 10:42:51,517 [CommandRequestProcessingThread - 569 - 1615884170702] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:51,521 [CommandRequestProcessingThread - 568 - 1615884170598] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2189.
+2021-03-16 10:42:51,537 [CommandRequestProcessingThread - 568 - 1615884170598] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:51,569 [CommandRequestProcessingThread - 572 - 1615884171049] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:51,648 [CommandRequestProcessingThread - 574 - 1615884171622] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:51,752 [CommandRequestProcessingThread - 576 - 1615884171723] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:51,752 [CommandRequestProcessingThread - 574 - 1615884171622] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:51,817 [CommandRequestProcessingThread - 576 - 1615884171723] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:51,905 [CommandRequestProcessingThread - 578 - 1615884171824] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:52,187 [CommandRequestProcessingThread - 580 - 1615884171938] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:52,232 [CommandRequestProcessingThread - 581 - 1615884172054] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:52,842 [CommandRequestProcessingThread - 578 - 1615884171824] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:52,842 [CommandRequestProcessingThread - 581 - 1615884172054] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2196.
+2021-03-16 10:42:52,871 [CommandRequestProcessingThread - 581 - 1615884172054] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,122 [CommandRequestProcessingThread - 584 - 1615884172992] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:53,146 [CommandRequestProcessingThread - 580 - 1615884171938] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,184 [CommandRequestProcessingThread - 585 - 1615884173104] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:53,232 [LocalConsumer - 171 - 1615883839951 - MyThread 2,015 172.21.4.49:10000 en] WARN   com.mitateknik.scheduler.ActionServiceManager$1   Receiver not found for subscription 2197
+2021-03-16 10:42:53,232 [LocalConsumer - 171 - 1615883839951 - MyThread 2,015 172.21.4.49:10000 en] WARN   com.mitateknik.scheduler.ActionServiceManager$1   Receiver not found for subscription 2197
+2021-03-16 10:42:53,241 [CommandRequestProcessingThread - 584 - 1615884172992] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,282 [LocalConsumer - 171 - 1615883839951 - MyThread 2,015 172.21.4.49:10000 en] WARN   com.mitateknik.scheduler.ActionServiceManager$1   Receiver not found for subscription 2198
+2021-03-16 10:42:53,283 [LocalConsumer - 171 - 1615883839951 - MyThread 2,015 172.21.4.49:10000 en] WARN   com.mitateknik.scheduler.ActionServiceManager$1   Receiver not found for subscription 2198
+2021-03-16 10:42:53,305 [CommandRequestProcessingThread - 585 - 1615884173104] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,354 [CommandRequestProcessingThread - 588 - 1615884173290] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:53,402 [CommandRequestProcessingThread - 590 - 1615884173390] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:53,495 [CommandRequestProcessingThread - 590 - 1615884173390] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,501 [CommandRequestProcessingThread - 592 - 1615884173490] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:53,554 [CommandRequestProcessingThread - 592 - 1615884173490] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2201.
+2021-03-16 10:42:53,568 [CommandRequestProcessingThread - 592 - 1615884173490] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,631 [CommandRequestProcessingThread - 594 - 1615884173610] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:53,679 [CommandRequestProcessingThread - 588 - 1615884173290] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,790 [CommandRequestProcessingThread - 596 - 1615884173710] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:53,810 [CommandRequestProcessingThread - 594 - 1615884173610] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,857 [CommandRequestProcessingThread - 596 - 1615884173710] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:53,985 [CommandRequestProcessingThread - 598 - 1615884173924] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:54,104 [CommandRequestProcessingThread - 600 - 1615884174029] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:54,109 [CommandRequestProcessingThread - 598 - 1615884173924] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2204.
+2021-03-16 10:42:54,119 [CommandRequestProcessingThread - 598 - 1615884173924] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:54,145 [CommandRequestProcessingThread - 602 - 1615884174130] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:54,199 [CommandRequestProcessingThread - 602 - 1615884174130] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:54,263 [CommandRequestProcessingThread - 604 - 1615884174230] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:54,344 [CommandRequestProcessingThread - 606 - 1615884174330] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:55,134 [CommandRequestProcessingThread - 606 - 1615884174330] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:55,194 [CommandRequestProcessingThread - 604 - 1615884174230] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:55,195 [CommandRequestProcessingThread - 600 - 1615884174029] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2205.
+2021-03-16 10:42:55,229 [CommandRequestProcessingThread - 600 - 1615884174029] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:55,355 [CommandRequestProcessingThread - 608 - 1615884175333] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:55,570 [CommandRequestProcessingThread - 610 - 1615884175443] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:55,719 [CommandRequestProcessingThread - 611 - 1615884175544] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:55,800 [CommandRequestProcessingThread - 611 - 1615884175544] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2211.
+2021-03-16 10:42:55,812 [CommandRequestProcessingThread - 611 - 1615884175544] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:55,841 [CommandRequestProcessingThread - 608 - 1615884175333] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:56,199 [CommandRequestProcessingThread - 614 - 1615884175915] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:56,254 [CommandRequestProcessingThread - 615 - 1615884176016] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:56,254 [CommandRequestProcessingThread - 610 - 1615884175443] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2210.
+2021-03-16 10:42:56,320 [CommandRequestProcessingThread - 610 - 1615884175443] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:56,412 [CommandRequestProcessingThread - 614 - 1615884175915] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:56,424 [CommandRequestProcessingThread - 615 - 1615884176016] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2213.
+2021-03-16 10:42:56,445 [CommandRequestProcessingThread - 615 - 1615884176016] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:56,448 [CommandRequestProcessingThread - 618 - 1615884176426] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:56,471 [CommandRequestProcessingThread - 618 - 1615884176426] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2214.
+2021-03-16 10:42:56,489 [CommandRequestProcessingThread - 618 - 1615884176426] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:56,552 [CommandRequestProcessingThread - 620 - 1615884176527] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:56,701 [CommandRequestProcessingThread - 622 - 1615884176630] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:56,702 [CommandRequestProcessingThread - 620 - 1615884176527] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2215.
+2021-03-16 10:42:56,713 [CommandRequestProcessingThread - 620 - 1615884176527] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:56,904 [CommandRequestProcessingThread - 624 - 1615884176732] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:56,905 [CommandRequestProcessingThread - 622 - 1615884176630] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2216.
+2021-03-16 10:42:56,969 [CommandRequestProcessingThread - 625 - 1615884176838] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:56,977 [CommandRequestProcessingThread - 622 - 1615884176630] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:57,152 [CommandRequestProcessingThread - 625 - 1615884176838] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:57,158 [CommandRequestProcessingThread - 628 - 1615884177084] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:57,237 [CommandRequestProcessingThread - 628 - 1615884177084] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:57,253 [CommandRequestProcessingThread - 624 - 1615884176732] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:57,274 [CommandRequestProcessingThread - 630 - 1615884177264] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:57,465 [CommandRequestProcessingThread - 632 - 1615884177364] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:57,467 [CommandRequestProcessingThread - 630 - 1615884177264] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2220.
+2021-03-16 10:42:57,542 [CommandRequestProcessingThread - 634 - 1615884177469] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:57,574 [CommandRequestProcessingThread - 630 - 1615884177264] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:57,698 [CommandRequestProcessingThread - 636 - 1615884177681] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:57,759 [CommandRequestProcessingThread - 636 - 1615884177681] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:57,765 [CommandRequestProcessingThread - 632 - 1615884177364] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2221.
+2021-03-16 10:42:57,777 [CommandRequestProcessingThread - 632 - 1615884177364] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:57,798 [CommandRequestProcessingThread - 634 - 1615884177469] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:57,874 [CommandRequestProcessingThread - 638 - 1615884177865] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:58,034 [CommandRequestProcessingThread - 640 - 1615884177966] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:58,034 [CommandRequestProcessingThread - 638 - 1615884177865] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2224.
+2021-03-16 10:42:58,055 [CommandRequestProcessingThread - 638 - 1615884177865] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:58,082 [CommandRequestProcessingThread - 642 - 1615884178066] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:58,114 [CommandRequestProcessingThread - 640 - 1615884177966] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2225.
+2021-03-16 10:42:58,123 [CommandRequestProcessingThread - 640 - 1615884177966] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:58,267 [CommandRequestProcessingThread - 644 - 1615884178167] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:58,312 [CommandRequestProcessingThread - 646 - 1615884178272] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:58,348 [CommandRequestProcessingThread - 642 - 1615884178066] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:58,426 [CommandRequestProcessingThread - 646 - 1615884178272] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:58,469 [CommandRequestProcessingThread - 648 - 1615884178451] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:58,511 [CommandRequestProcessingThread - 644 - 1615884178167] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:58,622 [CommandRequestProcessingThread - 650 - 1615884178551] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:58,668 [CommandRequestProcessingThread - 652 - 1615884178652] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:59,069 [CommandRequestProcessingThread - 648 - 1615884178451] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:59,081 [CommandRequestProcessingThread - 652 - 1615884178652] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:59,222 [CommandRequestProcessingThread - 654 - 1615884179182] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:59,223 [CommandRequestProcessingThread - 650 - 1615884178551] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2230.
+2021-03-16 10:42:59,239 [CommandRequestProcessingThread - 650 - 1615884178551] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:59,294 [CommandRequestProcessingThread - 656 - 1615884179283] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:59,431 [CommandRequestProcessingThread - 658 - 1615884179386] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:42:59,801 [CommandRequestProcessingThread - 656 - 1615884179283] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:59,881 [CommandRequestProcessingThread - 654 - 1615884179182] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:59,882 [CommandRequestProcessingThread - 658 - 1615884179386] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2234.
+2021-03-16 10:42:59,964 [CommandRequestProcessingThread - 658 - 1615884179386] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:42:59,999 [CommandRequestProcessingThread - 660 - 1615884179905] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:00,178 [CommandRequestProcessingThread - 662 - 1615884180101] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:00,248 [CommandRequestProcessingThread - 664 - 1615884180202] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:00,476 [CommandRequestProcessingThread - 664 - 1615884180202] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:00,531 [CommandRequestProcessingThread - 662 - 1615884180101] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2236.
+2021-03-16 10:43:00,611 [CommandRequestProcessingThread - 662 - 1615884180101] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:00,659 [CommandRequestProcessingThread - 666 - 1615884180578] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:00,659 [CommandRequestProcessingThread - 660 - 1615884179905] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2235.
+2021-03-16 10:43:00,897 [CommandRequestProcessingThread - 660 - 1615884179905] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:01,050 [CommandRequestProcessingThread - 668 - 1615884181003] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:01,122 [CommandRequestProcessingThread - 670 - 1615884181110] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:02,066 [CommandRequestProcessingThread - 670 - 1615884181110] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:02,066 [CommandRequestProcessingThread - 668 - 1615884181003] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2239.
+2021-03-16 10:43:02,078 [CommandRequestProcessingThread - 668 - 1615884181003] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:02,158 [CommandRequestProcessingThread - 666 - 1615884180578] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2238.
+2021-03-16 10:43:02,237 [CommandRequestProcessingThread - 672 - 1615884182182] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:02,253 [CommandRequestProcessingThread - 666 - 1615884180578] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:02,983 [CommandRequestProcessingThread - 674 - 1615884182285] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:02,994 [CommandRequestProcessingThread - 675 - 1615884182391] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:03,094 [CommandRequestProcessingThread - 672 - 1615884182182] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2241.
+2021-03-16 10:43:03,389 [CommandRequestProcessingThread - 672 - 1615884182182] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:03,442 [CommandRequestProcessingThread - 675 - 1615884182391] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:03,442 [CommandRequestProcessingThread - 674 - 1615884182285] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2242.
+2021-03-16 10:43:03,489 [CommandRequestProcessingThread - 674 - 1615884182285] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:03,502 [CommandRequestProcessingThread - 678 - 1615884183490] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:03,630 [CommandRequestProcessingThread - 680 - 1615884183591] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:03,706 [CommandRequestProcessingThread - 682 - 1615884183691] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:43:03,839 [CommandRequestProcessingThread - 680 - 1615884183591] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:04,009 [CommandRequestProcessingThread - 682 - 1615884183691] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2246.
+2021-03-16 10:43:04,037 [CommandRequestProcessingThread - 682 - 1615884183691] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:06,318 [CommandRequestProcessingThread - 678 - 1615884183490] WARN   com.mitateknik.scheduler.ActionCommandJob   2 pending messages remaining after unsubscribe operation for handle 2244.
+2021-03-16 10:43:06,346 [CommandRequestProcessingThread - 678 - 1615884183490] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no datalogs to show.
+2021-03-16 10:43:08,095 [MitaScheduler_Worker-5] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Logs summary: downloaded <0>
+2021-03-16 10:43:08,119 [MitaScheduler_Worker-5] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Stopping task.
+2021-03-16 10:43:08,129 [MitaScheduler_Worker-5] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is stopped.
+2021-03-16 10:43:08,129 [MitaScheduler_Worker-5] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:43:08,134 [MitaScheduler_Worker-5] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:43:08,148 [MitaScheduler_Worker-5] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Maximum reschedule count 1 is reached. Task marked as finished.
+2021-03-16 10:43:08,148 [MitaScheduler_Worker-5] INFO   com.mitateknik.scheduler.ActionCommandJob   Alarm skiped: Maximum reschedule count 1 is reached. Task marked as finished.
+2021-03-16 10:43:21,186 [MitaScheduler_Worker-5] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:43:21,231 [SchedulerPseudoTriggersService - 152 - 1615883838441] INFO   com.mitateknik.scheduler.SchedulerPseudoTriggersService   Handle a 'task executed' event.
+2021-03-16 10:43:21,523 [MitaScheduler_Worker-5] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished task execution.
+2021-03-16 10:43:22,007 [Thread-115] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:43:22,834 [CommandRequestProcessingThread - 492 - 1615883907484] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:43:22,967 [CommandRequestProcessingThread - 685 - 1615884202938] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:45:00,271 [MitaScheduler_Worker-6] INFO   com.mitateknik.scheduler.ActionCommandSimplifiedJob   Job JobDetail 'Controller Data.6191':  jobClass: 'com.mitateknik.scheduler.ActionCommandSimplifiedJob concurrentExectionDisallowed: true persistJobDataAfterExecution: false isDurable: true requestsRecovers: true started with trigger Trigger 'Normal.6192':  triggerClass: 'org.quartz.impl.triggers.CalendarIntervalTriggerImpl calendar: 'null' misfireInstruction: 0 nextFireTime: Tue Mar 16 10:55:00 EET 2021.
+2021-03-16 10:45:00,271 [MitaScheduler_Worker-6] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:45:00,437 [MitaScheduler_Worker-6] INFO   com.mitateknik.scheduler.SchedulerFacade   Update task activations.
+2021-03-16 10:45:13,461 [CommandRequestProcessingThread - 537 - 1615884032597] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2178.
+2021-03-16 10:45:13,485 [CommandRequestProcessingThread - 537 - 1615884032597] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:45:13,599 [CommandRequestProcessingThread - 687 - 1615884313586] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:45:15,837 [MitaScheduler_Worker-6] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting task execution.
+2021-03-16 10:45:15,849 [MitaScheduler_Worker-6] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Attempt 1.
+2021-03-16 10:45:15,868 [MitaScheduler_Worker-6] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get FTP sites configuration for task.
+2021-03-16 10:45:15,939 [MitaScheduler_Worker-6] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's command actions.
+2021-03-16 10:45:15,952 [MitaScheduler_Worker-6] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's simplified requests.
+2021-03-16 10:45:15,957 [MitaScheduler_Worker-7] INFO   com.mitateknik.scheduler.ActionCommandJob   Job JobDetail 'Controller Data.1127':  jobClass: 'com.mitateknik.scheduler.ActionCommandJob concurrentExectionDisallowed: true persistJobDataAfterExecution: false isDurable: true requestsRecovers: true started with trigger Trigger 'Rescheduled.6213':  triggerClass: 'org.quartz.impl.triggers.SimpleTriggerImpl calendar: 'null' misfireInstruction: 0 nextFireTime: null.
+2021-03-16 10:45:15,957 [MitaScheduler_Worker-7] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:45:15,992 [MitaScheduler_Worker-7] INFO   com.mitateknik.scheduler.SchedulerFacade   Update task activations.
+2021-03-16 10:45:16,017 [MitaScheduler_Worker-6] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] No action sets are available.
+2021-03-16 10:45:40,815 [MitaScheduler_Worker-6] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:45:40,820 [SchedulerPseudoTriggersService - 152 - 1615883838441] INFO   com.mitateknik.scheduler.SchedulerPseudoTriggersService   Handle a 'task executed' event.
+2021-03-16 10:45:40,846 [MitaScheduler_Worker-6] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Trigger next start time is set to 16-03-2021 08:55:00 UTC (GMT+0000).
+2021-03-16 10:45:40,851 [MitaScheduler_Worker-6] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished task execution.
+2021-03-16 10:45:40,881 [MitaScheduler_Worker-7] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting task execution.
+2021-03-16 10:45:40,898 [MitaScheduler_Worker-7] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Attempt 4.
+2021-03-16 10:45:40,903 [MitaScheduler_Worker-7] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get FTP sites configuration for task.
+2021-03-16 10:45:40,908 [MitaScheduler_Worker-7] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's command actions.
+2021-03-16 10:45:40,914 [MitaScheduler_Worker-7] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Select the failed command data related to the rescheduled trigger
+2021-03-16 10:45:40,947 [MitaScheduler_Worker-7] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Number of data requests: 1.
+2021-03-16 10:45:40,964 [CommandRequestProcessingThread - 690 - 1615884340953] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:46:02,034 [CommandRequestProcessingThread - 690 - 1615884340953] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Controller communication error: Connection timed out: connect
+2021-03-16 10:46:26,090 [CommandRequestProcessingThread - 690 - 1615884340953] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Controller communication error: Connection timed out: connect
+2021-03-16 10:46:50,146 [CommandRequestProcessingThread - 690 - 1615884340953] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Connection timed out: connect
+2021-03-16 10:46:51,030 [MitaScheduler_Worker-7] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Logs summary: downloaded <0>
+2021-03-16 10:46:51,062 [MitaScheduler_Worker-7] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Stopping task.
+2021-03-16 10:46:51,075 [MitaScheduler_Worker-7] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is stopped.
+2021-03-16 10:46:51,075 [MitaScheduler_Worker-7] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:46:51,102 [MitaScheduler_Worker-7] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:46:51,115 [MitaScheduler_Worker-7] INFO   com.mitateknik.scheduler.SchedulerFacade   Create trigger1.
+2021-03-16 10:47:16,531 [MitaScheduler_Worker-7] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is re-scheduled to 16-03-2021 08:51:51 UTC (GMT+0000).
+2021-03-16 10:47:19,135 [CommandRequestProcessingThread - 685 - 1615884202938] WARN   com.mitateknik.scheduler.ActionCommandJob   1 pending messages remaining after unsubscribe operation for handle 2247.
+2021-03-16 10:47:19,165 [CommandRequestProcessingThread - 685 - 1615884202938] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:47:19,282 [CommandRequestProcessingThread - 693 - 1615884439267] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
+2021-03-16 10:47:41,877 [MitaScheduler_Worker-7] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:47:41,886 [SchedulerPseudoTriggersService - 152 - 1615883838441] INFO   com.mitateknik.scheduler.SchedulerPseudoTriggersService   Handle a 'task executed' event.
+2021-03-16 10:47:41,971 [MitaScheduler_Worker-7] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished task execution.
+2021-03-16 10:47:42,556 [Thread-116] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:48:06,868 [MitaScheduler_Worker-8] INFO   com.mitateknik.scheduler.ActionServiceJob   Job JobDetail 'Services.1232':  jobClass: 'com.mitateknik.scheduler.ActionServiceJob concurrentExectionDisallowed: true persistJobDataAfterExecution: false isDurable: true requestsRecovers: true started with trigger Trigger 'Rescheduled.6214':  triggerClass: 'org.quartz.impl.triggers.SimpleTriggerImpl calendar: 'null' misfireInstruction: 0 nextFireTime: null.
+2021-03-16 10:48:06,869 [MitaScheduler_Worker-8] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:48:06,998 [MitaScheduler_Worker-8] INFO   com.mitateknik.scheduler.SchedulerFacade   Update task activations.
+2021-03-16 10:48:27,742 [MitaScheduler_Worker-8] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting task execution.
+2021-03-16 10:48:27,762 [MitaScheduler_Worker-8] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Attempt 6.
+2021-03-16 10:48:27,763 [MitaScheduler_Worker-8] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get the task's service actions.
+2021-03-16 10:48:27,787 [MitaScheduler_Worker-8] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Select the failed service data related to the rescheduled trigger
+2021-03-16 10:48:27,891 [MitaScheduler_Worker-8] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Number of data requests: 1.
+2021-03-16 10:48:27,989 [ServiceRequestProcessingThread - 696 - 1615884507950] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Sending report in e-mail...
+2021-03-16 10:48:28,169 [ServiceRequestProcessingThread - 696 - 1615884507950] ERROR  com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] There are no files to send.
+2021-03-16 10:48:28,217 [MitaScheduler_Worker-8] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Stopping task.
+2021-03-16 10:48:28,249 [MitaScheduler_Worker-8] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Task is stopped.
+2021-03-16 10:48:28,249 [MitaScheduler_Worker-8] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:48:28,258 [MitaScheduler_Worker-8] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:48:28,329 [MitaScheduler_Worker-8] WARN   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Maximum reschedule count 5 is reached. Task marked as finished.
+2021-03-16 10:48:28,330 [MitaScheduler_Worker-8] INFO   com.mitateknik.scheduler.ActionServiceJob   Alarm skiped: Maximum reschedule count 5 is reached. Task marked as finished.
+2021-03-16 10:48:29,501 [MitaScheduler_Worker-8] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Get options of the scheduler.
+2021-03-16 10:48:29,506 [SchedulerPseudoTriggersService - 152 - 1615883838441] INFO   com.mitateknik.scheduler.SchedulerPseudoTriggersService   Handle a 'task executed' event.
+2021-03-16 10:48:29,539 [MitaScheduler_Worker-8] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished task execution.
+2021-03-16 10:48:29,703 [Thread-117] DEBUG  com.mitateknik.scheduler.SchedulerFacade   Gets a task state.
+2021-03-16 10:49:08,794 [CommandRequestProcessingThread - 542 - 1615884165790] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Finished, received 2 messages.
+2021-03-16 10:49:09,222 [CommandRequestProcessingThread - 697 - 1615884548937] INFO   com.mitateknik.scheduler.SchedulerFacade   [TASK SCHEDULER] Starting request...
