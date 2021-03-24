@@ -8,18 +8,22 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class Reader {
 
 	public static void main(String[] args) throws IOException {
 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter file directory");
-		// C:\\Users\\testusr\\Desktop\\4Test\\simple\\scheduler_debug.log
-		String directory = sc.nextLine();
+		String input = args[0];
+		String output = args[1];
+		String chosenfile = null;
 
-		File file = new File(directory);
+		if (args.length == 3) {
+			chosenfile = args[2];
+		}
+
+		// C:\\Users\\testusr\\Desktop\\4Test\\simple\\scheduler_debug.log
+
+		File file = new File(input);
 		LinePart lp = new LinePart();
 
 		Map<String, BufferedWriter> map = new HashMap<>();
@@ -29,36 +33,34 @@ public class Reader {
 
 		while ((line = reader.readLine()) != null) {
 
-			// System.out.println(line);
 			lp = new LinePart();
-			// String[] dividedLine = line.split(" ", 3);
 			lp.setTime(line.substring(0, 23));
-			lp.setLogName(line.substring(line.indexOf("["), line.indexOf("]") + 1));
+			lp.setLogName(line.substring(line.indexOf("["), line.indexOf("]") + 1).replace(":", "_").replace("/", "_")
+					.replace(".", "_").replace(",", "_"));
 			lp.setMessage(line.substring(line.indexOf("]") + 2));
-			System.out.println(lp);
 
-			BufferedWriter writer = new BufferedWriter(new FileWriter(lp.getLogName()));
+			BufferedWriter writer = map.get(lp.getLogName());
+			if (writer == null) {
+				if (chosenfile == null) {
+					writer = new BufferedWriter(new FileWriter(output + "\\" + lp.getLogName()));
+				} else {
+					writer = new BufferedWriter(new FileWriter(output + "\\" + chosenfile));
+				}
 
-			map.put(lp.getLogName(), writer);
+				map.put(lp.getLogName(), writer);
+			}
+
+			writer.write(lp.toString() + "\n");
+
+			// System.out.println(lp);
 
 		}
+
+		for (BufferedWriter writer : map.values()) {
+			writer.close();
+		}
+
 		reader.close();
-		sc.close();
-
-//		for (LinePart l : list) {
-//			System.out.println(l);
-//		}
-
-//		BufferedWriter writter = new BufferedWriter(new FileWriter(lp.getLogName()));
-//		while (list.iterator().hasNext()) {
-//		
-//			if (lp.getLogName().equalsIgnoreCase(lp.getLogName())) {
-//				for (LinePart l : list) {
-//					writter.write(l + "\n");
-//				}
-//			}
-//
-//		}
 	}
 
 }

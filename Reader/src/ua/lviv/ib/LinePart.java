@@ -43,7 +43,7 @@ public class LinePart {
 
 	@Override
 	public String toString() {
-		return " time= " + time + " logName= " + logName + " message= " + message;
+		return time + logName + message;
 	}
 
 	
