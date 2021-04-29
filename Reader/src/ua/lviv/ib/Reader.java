@@ -3,6 +3,7 @@ package ua.lviv.ib;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -12,6 +13,9 @@ import java.util.Map;
 public class Reader {
 
 	public static void main(String[] args) throws IOException {
+		if (args.length < 2 || args.length > 3) {
+			throw new IllegalArgumentException("Must be two or three arguments with one space between them");
+		}
 
 		String input = args[0];
 		String output = args[1];
@@ -19,9 +23,13 @@ public class Reader {
 
 		if (args.length == 3) {
 			chosenfile = args[2];
+
 		}
 
 		// C:\\Users\\testusr\\Desktop\\4Test\\simple\\scheduler_debug.log
+		// C:\\Users\\testusr\\Desktop\\4Test\\simple\\transport_debug.log
+
+		try {
 
 		File file = new File(input);
 		LinePart lp = new LinePart();
@@ -31,28 +39,29 @@ public class Reader {
 		BufferedReader reader = new BufferedReader(new FileReader(file));
 		String line;
 
+		File directory = new File(output);
+		if (!directory.exists())
+			directory.mkdir();
+
 		while ((line = reader.readLine()) != null) {
 
-			lp = new LinePart();
-			lp.setTime(line.substring(0, 23));
-			lp.setLogName(line.substring(line.indexOf("["), line.indexOf("]") + 1).replace(":", "_").replace("/", "_")
-					.replace(".", "_").replace(",", "_"));
-			lp.setMessage(line.substring(line.indexOf("]") + 2));
+			if (!lp.transformToObject(lp, line, chosenfile))
+				continue;
 
-			BufferedWriter writer = map.get(lp.getLogName());
+			BufferedWriter writer = map.get(lp.getFileName());
 			if (writer == null) {
-				if (chosenfile == null) {
-					writer = new BufferedWriter(new FileWriter(output + "\\" + lp.getLogName()));
+				if (chosenfile != null) {
+					File fileq = new File(directory + "\\" + LinePart.escSymbols(chosenfile));
+					writer = new BufferedWriter(new FileWriter(fileq.getAbsoluteFile()));
 				} else {
-					writer = new BufferedWriter(new FileWriter(output + "\\" + chosenfile));
+					File fileq = new File(directory + "\\" + LinePart.escSymbols(lp.getFileName()));
+					writer = new BufferedWriter(new FileWriter(fileq.getAbsoluteFile()));
 				}
 
-				map.put(lp.getLogName(), writer);
+				map.put(lp.getFileName(), writer);
 			}
 
 			writer.write(lp.toString() + "\n");
-
-			// System.out.println(lp);
 
 		}
 
@@ -61,6 +70,10 @@ public class Reader {
 		}
 
 		reader.close();
+		
+		} catch (FileNotFoundException e) {
+			System.out.println("File doesnt exist");
+		}
 	}
 
 }
